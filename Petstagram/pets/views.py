@@ -1,11 +1,6 @@
 from django.shortcuts import render
 
 
-from django.shortcuts import render
-
-
-# Create your views here.
-
 def pet_add(request):
     return render(request, 'pets/pet-add-page.html')
 
